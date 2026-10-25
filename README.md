@@ -29,7 +29,8 @@
 
 ### 1. Установка зависимостей
 ```bash
-pip install pandas openpyxl```
+pip install pandas openpyxl
+```
 2. Запуск
 Положите ваши Excel-файлы в папку test_data/ и запустите:
 ```bash
