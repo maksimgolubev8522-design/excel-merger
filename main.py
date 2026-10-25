@@ -38,7 +38,7 @@ def merge_excel_reports_universal(input_folder, output_file):
             date_col = col
             break
 
-    # Ищем колонку с товаром/продуктом
+    # Ищем колонку с товаром
     for col in columns:
         if any(word in col.lower() for word in ['товар', 'продукт', 'наименование', 'product', 'item']):
             product_col = col
