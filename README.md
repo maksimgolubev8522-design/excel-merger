@@ -32,9 +32,10 @@
 pip install pandas openpyxl
 ```
 2. Запуск
-Положите ваши Excel-файлы в папку test_data/ и запустите:
+   Положите ваши Excel-файлы в папку test_data/ и запустите:
 ```bash
 python main.py
+```
 3. Результат
 В корне проекта появится файл merged_report.xlsx с готовым отчетом.
 
